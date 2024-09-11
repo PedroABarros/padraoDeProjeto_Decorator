@@ -1,18 +1,18 @@
 package org.example;
 
-public class Bacon extends DecoradorHamburguer {
+public class BatataPalha extends DecoradorHamburguer {
 
-    public Bacon(Hamburguer hamburguer) {
+    public BatataPalha(Hamburguer hamburguer) {
         super(hamburguer);
     }
 
     @Override
     public float getPrecoAdicional() {
-        return 2.50f;
+        return 0.50f;
     }
 
     @Override
     public String getDescricaoAdicional() {
-        return "Bacon";
+        return "BatataPalha";
     }
 }

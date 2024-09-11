@@ -1,6 +1,6 @@
 package org.example;
 
-public class HamburguerSimples implements Hamburguer {
+public class    HamburguerSimples implements Hamburguer {
 
     @Override
     public float getPreco() {
